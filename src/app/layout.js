@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex h-screen gap-4">
-        <div className="bg-white w-[20%] p-4 flex flex-col justify-between">
+        <div className="bg-white w-[20%] p-4 flex flex-col justify-between sticky top-[0px]">
           <Link href="/">
             <Image src="/pics/lapo.png" alt="Lapo"  width={132} height={45}/>
           </Link>
