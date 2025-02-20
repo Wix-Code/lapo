@@ -3,8 +3,8 @@ import React from 'react'
 
 const Profile = () => {
   return (
-    <div>
-      <div className='flex items-center justify-between h-[48px] bg-[#FFFFFF] border-[#DEE6E2] border-[1px] px-5'>
+    <div className='w-full'>
+      <div className='flex items-center justify-between h-[48px] bg-[#FFFFFF] border-[#DEE6E2] border-[1px] px-5 top-0 sticky z-50'>
         <div className='flex items-center gap-4'>
           <Image src="/pics/ca.png" alt='Card Icon' height={16} width={16} />
           <span>Card Scheme</span>
