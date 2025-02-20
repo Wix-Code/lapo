@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import MonthlyIssuance from './components/MonthlyIssuance'
 import MonthlyIncome from './components/CardStatus'
+import CardRequest from './components/CardRequest'
+import CardStatus from './components/CardStatus'
 
 export default function () {
   return (
@@ -59,9 +61,9 @@ export default function () {
         </div>
         <div className='grid grid-cols-2 grid-rows-2 gap-2'>
           <MonthlyIssuance />
+          <CardRequest />
           <MonthlyIncome />
-          <MonthlyIncome />
-          <MonthlyIncome />
+          <CardStatus />
         </div>
       </div>
     </div>
