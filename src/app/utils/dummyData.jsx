@@ -72,3 +72,34 @@ export const sideBarLinks = [
     icon: "/pics/e.png"
   }
 ]
+
+export const cardRequst = [
+  {
+    id: 1,
+    name: "Corperate",
+    status: "Pending",
+    qty: "10",
+    type: "Instant"
+  },
+  {
+    id: 2,
+    name: "Corperate",
+    status: "Pending",
+    qty: "10",
+    type: "Instant"
+  },
+  {
+    id: 3,
+    name: "Corperate",
+    status: "Pending",
+    qty: "10",
+    type: "Instant"
+  },
+  {
+    id: 4,
+    name: "Corperate",
+    status: "Pending",
+    qty: "10",
+    type: "Instant"
+  }
+]
