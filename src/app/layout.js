@@ -24,14 +24,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex w-full">
-        <div className="bg-white w-[20%] h-screen left-0 p-4 flex flex-col justify-between sticky overflow-hidden top-[0px]">
+        <div className="bg-white w-[20%] h-screen left-0 p-4 flex flex-col sticky overflow-hidden top-[0px] sm:flex sm:flex-col sm:gap-3 sm:h-screen">
           <Link href="/">
             <Image src="/pics/lapo.png" alt="Lapo"  width={132} height={45}/>
           </Link>
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 sm:flex sm:flex-col sm:gap-1 sm:items-start">
               <Image src="/pics/e.png" alt="Dashboard" width={16} height={16}/>
-              <h1 className="text-[#00000080] text-[12px]">Dashboard</h1>
+              <h1 className="text-[#00000080] text-[12px] sm:hidden">Dashboard</h1>
             </div>
             <div className="flex items-center gap-4">
               <h1 className="text-[#00000080] text-[12px] font-[400]">Main Menu</h1>
