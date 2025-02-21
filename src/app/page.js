@@ -4,6 +4,7 @@ import MonthlyIssuance from './components/MonthlyIssuance'
 import MonthlyIncome from './components/CardStatus'
 import CardRequest from './components/CardRequest'
 import CardStatus from './components/CardStatus'
+import WeeklyIncome from './components/WeeklyIncome'
 
 export default function () {
   return (
@@ -123,7 +124,7 @@ export default function () {
         <div className='grid grid-cols-2 grid-rows-2 gap-2 sm:flex sm:flex-col sm:w-full'>
           <MonthlyIssuance />
           <CardRequest />
-          <MonthlyIncome />
+          <WeeklyIncome />
           <CardStatus />
         </div>
       </div>

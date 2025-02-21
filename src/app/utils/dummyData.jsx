@@ -103,3 +103,36 @@ export const cardRequst = [
     type: "Instant"
   }
 ]
+
+export const dataIncome = {
+  datasets:[{
+    data: [0, 20, 40, 60, 80, 100],
+    borderColor: "#4DAF01"
+  }],
+  labels: [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thur",
+    "Fri",
+    "Sat",
+    "Sun",
+  ]
+}
+
+export const monthIncome = {
+  datasets:[{
+    data: [0, 20, 40, 60, 80, 100],
+    borderColor: "#4DAF01",
+    backgroundColor: "#CCE2FF"
+  }],
+  labels: [
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+  ]
+}
