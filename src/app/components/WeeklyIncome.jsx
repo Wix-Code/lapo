@@ -25,6 +25,9 @@ const options = {
         callback: (value) => `${value}`, // Customize tick labels if needed
       },
     },
+    x: {
+      borderWidth: false
+    },
   },
 }
 

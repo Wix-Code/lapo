@@ -25,13 +25,19 @@ const options = {
       },
     },
   },
+  responsive: true,
+  plugins: {
+    legend: {
+      position: "bottom",
+    },
+  }
 }
 
 const MonthlyIssuance = () => {
   
   return (
     <div className='bg-[#FFFFFF] p-4'>
-      <h1>This Week’s Income</h1>
+      <h1>Monthly Issuance</h1>
       <Bar options={options} data={ monthIncome } />
     </div>
   )

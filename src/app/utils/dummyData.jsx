@@ -105,7 +105,7 @@ export const cardRequst = [
 ]
 
 export const dataIncome = {
-  datasets:[{
+  datasets: [{
     data: [0, 20, 40, 60, 80, 100],
     borderColor: "#4DAF01"
   }],
@@ -121,8 +121,14 @@ export const dataIncome = {
 }
 
 export const monthIncome = {
-  datasets:[{
-    data: [0, 20, 40, 60, 80, 100],
+  datasets: [{
+    label: "Personalized",
+    data: [10, 25, 45, 50, 70, 90],
+    borderColor: "#CCE2FF",
+    backgroundColor: "#4DAF01"
+  }, {
+    label: "Income",
+    data: [30, 70 , 20, 40, 60, 80, 100],
     borderColor: "#4DAF01",
     backgroundColor: "#CCE2FF"
   }],
@@ -136,3 +142,27 @@ export const monthIncome = {
     "Nov",
   ]
 }
+
+export const doughnutData = {
+  labels: [
+    'Active',
+    'Expired',
+    'Inactive',
+    'Blocked',
+    'Lost'
+  ],
+  datasets: [{
+    label: 'My First Dataset',
+    data: [300, 400, 200, 50, 100],
+    backgroundColor: [
+      '#00984C',
+      '#FFBA24',
+      '#014DAF',
+      '#8020E7',
+      '#FF4457',
+    ],
+    borderRadius: 40,
+    hoverOffset: 4,
+    weight: 40
+  }]
+};
