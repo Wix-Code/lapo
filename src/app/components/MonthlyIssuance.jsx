@@ -38,7 +38,9 @@ const MonthlyIssuance = () => {
   return (
     <div className='bg-[#FFFFFF] p-4'>
       <h1>Monthly Issuance</h1>
-      <Bar options={options} data={ monthIncome } />
+      <div className='flex items-center justify-center' style={{ width: "100%" }}>
+        <Bar options={options} data={ monthIncome } />
+      </div>
     </div>
   )
 }

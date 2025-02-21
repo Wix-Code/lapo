@@ -161,8 +161,8 @@ export const doughnutData = {
       '#8020E7',
       '#FF4457',
     ],
-    borderRadius: 40,
-    hoverOffset: 4,
-    weight: 40
+    borderRadius: 10,
+    weight: 40,
+    padding: 100
   }]
 };

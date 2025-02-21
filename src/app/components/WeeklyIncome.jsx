@@ -36,7 +36,9 @@ const WeeklyIncome = () => {
   return (
     <div className='bg-[#FFFFFF] p-4'>
       <h1>This Week’s Income</h1>
-      <Line options={options} data={ dataIncome } />
+      <div className='flex items-center justify-center' style={{ width: "100%" }}>
+        <Line options={options} data={ dataIncome } />
+      </div>
     </div>
   )
 }
