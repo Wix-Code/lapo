@@ -36,7 +36,7 @@ export default function () {
           <p className='text-[11px] text-[#121212] font-normal'>11 Nov 2024</p>
         </div>
       </div>
-      <p className='mx-5 text-[12px] text-[#121212] font-medium sm:mx-2'>Last login: 26/11/2024  14:39:58</p>
+      <p className='mx-5 text-[12px] text-[#121212] font-medium sm:mx-5'>Last login: 26/11/2024  14:39:58</p>
       <div className='bg-[#FFFFFF] py-5 px-3 mx-5 flex flex-col gap-2 rounded-[10px] sm:mx-5'>
         <h1 className='text-[16px] text-[#121212] font-medium'>Your Quick Access</h1>
         <div className='flex items-center gap-5 sm:flex sm:flex-col sm:w-full'>
