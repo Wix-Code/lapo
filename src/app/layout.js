@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex w-full">
-        <div className="bg-white w-[20%] h-screen left-0 p-4 flex flex-col sticky overflow-hidden top-[0px] sm:flex-col sm:hidden sm:gap-3 sm:h-screen">
+        <div className="bg-white w-[20%] h-screen left-0 p-4 flex flex-col sticky overflow-hidden top-[0px] sm:hidden">
           <Link href="/">
             <Image src="/pics/lapo.png" alt="Lapo"  width={132} height={45}/>
           </Link>
