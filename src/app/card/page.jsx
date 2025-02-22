@@ -31,7 +31,7 @@ const CardUser = () => {
               <input type="text" placeholder='RootUser' className='text-[#101828] text-[16px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
             </div>
           </div>
-          <div className='flex items-center gap-7'>
+          <div className='flex items-center gap-7 sm:flex sm:flex-col sm:gap-3'>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label className='text-[#344054] text-[14px]' htmlFor="">Card Type</label>
               <input type="text" placeholder='Classic Debit' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
@@ -41,7 +41,7 @@ const CardUser = () => {
               <input type="text" placeholder='₦1,500' className='text-[#101828] text-[16px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
             </div>
           </div>
-          <div className='flex items-center gap-7'>
+          <div className='flex items-center gap-7 sm:flex sm:flex-col sm:gap-3'>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label className='text-[#344054] text-[14px]' htmlFor="">Quantity</label>
               <input type="text" placeholder='10' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
