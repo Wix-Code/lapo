@@ -66,7 +66,7 @@ const CardUser = () => {
             <Image src="/pics/search.png" alt='Card Icon' height={20} width={20} />
             Add fee
           </button>
-          <table border="1" width="100%" className='bg-[#EAECF0] my-6 sm:overflow-x-scroll'>
+          <table border="1" width="100%" className='bg-[#EAECF0] my-6 sm:overflow-y-scroll'>
             <thead className='bg-[#EAECF0]'>
               <tr className='flex items-center bg-[#F9FAFB]'>
                 <th className='flex-1 text-[#475467] text-[12px] py-3 border-[#E2E2E2] border-[1px]'>Name</th>
