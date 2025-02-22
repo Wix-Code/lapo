@@ -92,7 +92,7 @@ const CardUser = () => {
           </table>
         </div>
       </div>
-      <button  className='m-[20px] w-[293px] h-[44px] bg-[#014DAF] text-[16px] text-[#FFFFFF] font-bold'>
+      <button  className='m-[20px] w-[293px] h-[44px] bg-[#014DAF] text-[16px] text-[#FFFFFF] font-bold sm:w-[100%]'>
         Create Profile
       </button>
     </div>
