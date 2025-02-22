@@ -59,7 +59,7 @@ const CardUser = () => {
           </div>
         </div>
       </div>
-      <div className='flex rounded-[10px] flex-col gap-3 m-[20px] bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
+      <div className='flex rounded-[10px] flex-col gap-3 m-[20px] bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px] sm:overflow-x-scroll'>
         <h1 className='text-[18px] text-[#101828] font-bold'>Fee</h1>
         <div >
           <button  className='bg-[#014DAF] rounded-[4px] text-[12px] flex items-center justify-center gap-2 w-[101px] h-[36px] text-[#FFFFFF] font-medium'>
