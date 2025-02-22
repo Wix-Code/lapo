@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
             <LogoutIcon />
           </div>
         </div>
-        <div className="bg-blue-50 w-[80%] sm:w-full">
+        <div className="bg-blue-50 w-[80%] sm:w-[100%">
           {children}
         </div>
       </body>
