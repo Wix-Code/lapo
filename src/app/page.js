@@ -121,7 +121,7 @@ export default function () {
             </div>
           </div>
         </div>
-        <div className='grid grid-cols-2 grid-rows-2 gap-2 sm:flex sm:flex-col sm:w-full'>
+        <div className='grid grid-cols-2 grid-rows-2 gap-2 h-[] sm:flex sm:flex-col sm:w-full'>
           <MonthlyIssuance />
           <CardRequest />
           <WeeklyIncome />

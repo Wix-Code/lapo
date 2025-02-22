@@ -16,6 +16,7 @@ ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Legend, 
 import { dataIncome } from '../utils/dummyData'
 
 const options = {
+  responsive: true,
   scales: {
     y: {
       type: "linear", // Ensure "linear" scale is registered
@@ -36,7 +37,7 @@ const WeeklyIncome = () => {
   return (
     <div className='bg-[#FFFFFF] p-4'>
       <h1>This Week’s Income</h1>
-      <div className='flex items-center justify-center' style={{ width: "100%" }}>
+      <div className='flex items-center justify-center' style={{ width: '100%', height: '300px' }}>
         <Line options={options} data={ dataIncome } />
       </div>
     </div>

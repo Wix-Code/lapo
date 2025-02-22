@@ -123,14 +123,18 @@ export const dataIncome = {
 export const monthIncome = {
   datasets: [{
     label: "Personalized",
-    data: [10, 25, 45, 50, 70, 90],
+    data: [10, 20, 8, 9, 10, 20, 10],
     borderColor: "#CCE2FF",
-    backgroundColor: "#4DAF01"
+    backgroundColor: "#014DAF",
+    borderRadius: 4,
+    barPercentage: 0.7,
   }, {
     label: "Income",
-    data: [30, 70 , 20, 40, 60, 80, 100],
+    data: [50, 70 , 38, 60, 50, 80, 75],
     borderColor: "#4DAF01",
-    backgroundColor: "#CCE2FF"
+    backgroundColor: "#CCE2FF",
+    borderRadius: 8,
+    barPercentage: 0.7,
   }],
   labels: [
     "May",

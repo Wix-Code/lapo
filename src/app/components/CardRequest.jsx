@@ -3,7 +3,7 @@ import { cardRequst } from '../utils/dummyData'
 
 const CardRequest = () => {
   return (
-    <div className='bg-[#FFFFFF] p-4'>
+    <div className='bg-[#FFFFFF]  p-4'>
       <h1 className='text-[#121212] text-[18px] font-medium'>Recent Card Requests</h1>
       <div className='my-3'>
         <div className='flex bg-[#F1F7FF] justify-between items-center border-[1px] border-[#E2E2E2]'>

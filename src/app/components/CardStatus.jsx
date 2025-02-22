@@ -17,6 +17,7 @@ ChartJS.register(CategoryScale, LinearScale, ArcElement, Legend, Title, Tooltip)
 
 const options = {
   responsive: true,
+  maintainAspectRatio: false, 
   plugins: {
     legend: {
       position: "bottom",
@@ -33,22 +34,21 @@ const options = {
         },
       },
     },
-    tooltip: {
-      enabled: true,
-    },
   },
   maintainAspectRatio: false,
-  cutout: "90%",
+  cutout: "85%",
   borderRadius: "50%",
 };
 
-const textCenterPlugin = {
+/*const textCenterPlugin = {
   id: "textCenter",
   beforeDraw: (chart) => {
     const { width } = chart;
     const { height } = chart;
     const ctx = chart.ctx;
-
+tooltip: {
+      enabled: true,
+    },
     ctx.restore();
     const fontSize = "30px"//(height / 100).toFixed(2);
     ctx.font = `${fontSize}em sans-serif`;
@@ -63,14 +63,15 @@ const textCenterPlugin = {
     ctx.fillText(text, textX, textY);
     ctx.save();
   },
-};
+  plugins={[textCenterPlugin]}
+};*/
 
 const CardStatus = () => {
   return (
-    <div className='bg-[#FFFFFF]  p-4'>
+    <div className='bg-[#FFFFFF] p-4'>
       <h1>Card Status Distribution</h1>
-      <div className='flex items-center justify-center h-fit w-full' style={{ }}>
-        <Doughnut options={options} data={doughnutData} plugins={[textCenterPlugin]} />
+      <div className='flex items-center justify-center' style={{ width: '100%', height: '300px' }}>
+        <Doughnut options={options} data={doughnutData}  />
       </div>
     </div>
   );
