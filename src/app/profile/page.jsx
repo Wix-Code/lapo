@@ -51,11 +51,11 @@ const Profile = () => {
               </div>
             </div>
             <div className='flex items-center gap-7 sm:flex sm:flex-col sm:gap-3'>
-              <div className='flex flex-col gap-2 w-[448px]'>
+              <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
                 <label className='text-[#344054] text-[14px]' htmlFor="">Date Requested</label>
                 <input type="text" placeholder='Corperate' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
               </div>
-              <div className='flex flex-col gap-2 w-[448px]'>
+              <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
                 <label  className='text-[#344054] text-[14px]' htmlFor="">Status</label>
                 <input type="text" placeholder='RootUser' className='text-[#101828] text-[16px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
               </div>
