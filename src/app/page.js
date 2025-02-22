@@ -62,7 +62,7 @@ export default function () {
           </div>
         </div>
       </div>
-      <div className='mx-5 flex flex-col gap-3 sm:mx-2'>
+      <div className='mx-5 flex flex-col gap-3 sm:mx-4'>
         <h1 className='text-[#000000] text-[18px] font-bold'>Analytics</h1>
         <div className='flex items-center gap-3 sm:flex sm:flex-col sm:w-full'>
           <div className='bg-[#FFFFFF] py-2 px-3 rounded-[10px] flex-1  sm:w-full'>
