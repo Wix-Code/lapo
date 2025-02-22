@@ -14,7 +14,7 @@ const Profile = () => {
           <Image src="/pics/e.png" alt='Card Icon' height={16} width={16} />
         </div>
       </div>
-      <div className='p-5 sm:w-[100%]'>
+      <div className='p-5 sm:w-[100%] sm:flex sm:flex-col sm:gap-3'>
         <h1 className='text-[18px] text-[#101828] font-bold'>Card Request</h1>
         <span className='text-[#475467] text-[14px] font-normal'>View and attend to card requests here.</span>
         <div className='flex flex-col gap-4 w-full bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
