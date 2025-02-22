@@ -59,14 +59,14 @@ const CardUser = () => {
           </div>
         </div>
       </div>
-      <div className='flex rounded-[10px] flex-col gap-3 m-[20px] bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px] sm:overflow-x-scroll'>
+      <div className='flex rounded-[10px] flex-col gap-3 m-[20px] bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
         <h1 className='text-[18px] text-[#101828] font-bold'>Fee</h1>
         <div >
           <button  className='bg-[#014DAF] rounded-[4px] text-[12px] flex items-center justify-center gap-2 w-[101px] h-[36px] text-[#FFFFFF] font-medium'>
             <Image src="/pics/search.png" alt='Card Icon' height={20} width={20} />
             Add fee
           </button>
-          <table border="1" width="100%" className='bg-[#EAECF0] my-6'>
+          <table border="1" width="100%" className='bg-[#EAECF0] my-6 sm:overflow-x-scroll'>
             <thead className='bg-[#EAECF0]'>
               <tr className='flex items-center bg-[#F9FAFB]'>
                 <th className='flex-1 text-[#475467] text-[12px] py-3 border-[#E2E2E2] border-[1px]'>Name</th>
