@@ -25,7 +25,7 @@ export default function () {
           </div>
         </div>
       </div>
-      <div className='flex items-center justify-between mx-5 sm:flex sm:flex-col sm:gap-2 sm:items-start sm:mx-2'>
+      <div className='flex items-center justify-between mx-5 sm:flex sm:flex-col sm:gap-2 sm:items-start sm:mx-5'>
         <p className='text-[18px] text-[#121212] font-bold sm:text-[14px]'>Hi Nazeer, what would you like to do today?</p>
         <div className='flex items-center px-3 justify-between gap-2 h-[30px] border-[1px] border-[#D0D5DD] rounded-[4px]'>
           <div className='flex items-center gap-2'>
@@ -37,7 +37,7 @@ export default function () {
         </div>
       </div>
       <p className='mx-5 text-[12px] text-[#121212] font-medium sm:mx-2'>Last login: 26/11/2024  14:39:58</p>
-      <div className='bg-[#FFFFFF] py-5 px-3 mx-5 flex flex-col gap-2 rounded-[10px] sm:mx-2'>
+      <div className='bg-[#FFFFFF] py-5 px-3 mx-5 flex flex-col gap-2 rounded-[10px] sm:mx-5'>
         <h1 className='text-[16px] text-[#121212] font-medium'>Your Quick Access</h1>
         <div className='flex items-center gap-5 sm:flex sm:flex-col sm:w-full'>
           <div className='flex flex-1 h-[45px] rounded-[4px] items-center bg-[#F1F7FF] py-4 px-3 gap-2 sm:w-full'>
@@ -62,7 +62,7 @@ export default function () {
           </div>
         </div>
       </div>
-      <div className='mx-5 flex flex-col gap-3 sm:mx-2'>
+      <div className='mx-5 flex flex-col gap-3 sm:mx-5'>
         <h1 className='text-[#000000] text-[18px] font-bold'>Analytics</h1>
         <div className='flex items-center gap-3 sm:flex sm:flex-col sm:w-full'>
           <div className='bg-[#FFFFFF] py-2 px-3 rounded-[10px] flex-1  sm:w-full'>
