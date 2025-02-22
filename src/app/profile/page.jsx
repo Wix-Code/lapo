@@ -19,7 +19,7 @@ const Profile = () => {
         <span className='text-[#475467] text-[14px] font-normal'>View and attend to card requests here.</span>
         <div className='flex flex-col gap-4 w-full bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
           <h1 className='text-[18px] text-[#101828] font-bold'>Card Request</h1>
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col gap-4 sm:flex sm:flex-col sm:gap-3'>
             <div className='flex items-center gap-7'>
               <div className='flex flex-col gap-2 w-[448px]'>
                 <label className='text-[#344054] text-[14px]' htmlFor="">Branch Name</label>
