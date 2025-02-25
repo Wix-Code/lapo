@@ -8,56 +8,61 @@ const CardUser = () => {
   return (
     <div>
       <div className='flex items-center justify-between h-[48px] bg-[#FFFFFF] border-[#DEE6E2] border-[1px] px-5 top-0 sticky z-50'>
-        <div className='flex items-center gap-4'>
-          <Image src="/pics/ca.png" alt='Card Icon' height={16} width={16} />
-          <span className='text-[#344054] text-[14px]'>Card Scheme</span>
+        <div className='flex items-center gap-3'>
+          <Image src="/pics/left.png" alt='Card Icon' height={20} width={20} />
+          <p className='text-[#475467] text-[14px] font-medium'>Back</p>
+          <Image src="/pics/card.png" alt='Card Icon' height={16} width={16} />
+          <Image src="/pics/rig.png" alt='Card Icon' height={16} width={16} />
+          <span className='text-[#475467] text-[14px] font-medium'>Card Profile</span>
+          <Image src="/pics/rig.png" alt='Card Icon' height={16} width={16} />
+          <span className='text-[#001735] text-[14px] font-bold'>Create Profile</span>
         </div>
         <div className='flex items-center gap-4'>
-          <Image src="/pics/e.png" alt='Card Icon' height={16} width={16} />
-          <Image src="/pics/e.png" alt='Card Icon' height={16} width={16} />
+          <Image src="/pics/bell.png" alt='Card Icon' height={16} width={16} />
+          <Image src="/pics/drop.png" alt='Card Icon' height={32} width={32} />
         </div>
       </div>
       <div className='p-5 sm:flex sm:flex-col sm:gap-3'>
         <h1 className='text-[18px] text-[#101828] font-bold'>Card Request</h1>
         <span className='text-[#475467] text-[14px] font-normal'>View and attend to card requests here.</span>
       </div>
-      <div className='flex mx-5 flex-col gap-4 bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
-        <h1 className='text-[18px] text-[#101828] font-bold'>Card Request</h1>
+      <div className='flex mx-5 flex-col gap-4 rounded-[10px] bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
+        <h1 className='text-[18px] text-[#101828] font-bold'>Profile Details</h1>
         <div className='flex flex-col gap-4 sm:w-[100%]'>
           <div className='flex items-center gap-7 sm:flex sm:flex-col sm:gap-3'>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label className='text-[#344054] text-[14px]' htmlFor="">Branch Name</label>
-              <input type="text" placeholder='Corperate' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
+              <input type="text" placeholder='Corperate' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] h-[44px] rounded-[8px] border-[1px]' />
             </div>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label  className='text-[#344054] text-[14px]' htmlFor="">Initiator</label>
-              <input type="text" placeholder='RootUser' className='text-[#101828] text-[16px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
+              <input type="text" placeholder='RootUser' className='text-[#101828] text-[16px] rounded-[8px]  h-[44px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
             </div>
           </div>
           <div className='flex items-center gap-7 sm:flex sm:flex-col sm:gap-3'>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label className='text-[#344054] text-[14px]' htmlFor="">Card Type</label>
-              <input type="text" placeholder='Classic Debit' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
+              <input type="text" placeholder='Classic Debit' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] h-[44px] rounded-[8px] border-[1px]' />
             </div>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label  className='text-[#344054] text-[14px]' htmlFor="">Card Charges</label>
-              <input type="text" placeholder='₦1,500' className='text-[#101828] text-[16px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
+              <input type="text" placeholder='₦1,500' className='text-[#101828] text-[16px] bg-[#FFFFFF] h-[44px] rounded-[8px] p-2 border-[#DEE6E2] border-[1px]'/>
             </div>
           </div>
           <div className='flex items-center gap-7 sm:flex sm:flex-col sm:gap-3'>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label className='text-[#344054] text-[14px]' htmlFor="">Quantity</label>
-              <input type="text" placeholder='10' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
+              <input type="text" placeholder='10' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px] h-[44px] rounded-[8px]' />
             </div>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label  className='text-[#344054] text-[14px]' htmlFor="">Batch</label>
-              <input type="text" placeholder='847264905' className='text-[#101828] text-[16px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
+              <input type="text" placeholder='847264905' className='rounded-[8px] text-[#101828] text-[16px] h-[44px] bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]'/>
             </div>
           </div>
           <div className='flex items-center gap-7'>
             <div className='flex flex-col gap-2 w-[448px] sm:w-[100%]'>
               <label className='text-[#344054] text-[14px]' htmlFor="">Date Requested</label>
-              <input type="text" placeholder='Corperate' className=' bg-[#FFFFFF] p-2 border-[#DEE6E2] border-[1px]' />
+              <input type="text" placeholder='Corperate' className='rounded-[8px] bg-[#FFFFFF] p-2 h-[44px] border-[#DEE6E2] border-[1px]' />
             </div>
           </div>
         </div>
@@ -72,7 +77,7 @@ const CardUser = () => {
           {
             addFee && (
               <div className='fixed flex items-center justify-center w-[100%] h-[100vh] bg-[#101828] z-[90] top-0 left-0'>
-                <AddFee />
+                <AddFee setAddFee={setAddFee} />
               </div>
             )
           }
@@ -103,7 +108,7 @@ const CardUser = () => {
         </div>
       </div>
       <div className='sm:mx-5 sm:w-[full]'>
-        <button  className='m-[20px] w-[293px] h-[44px] bg-[#014DAF] text-[16px] text-[#FFFFFF] font-bold sm:w-[100%]'>
+        <button  className='rounded-[4px] m-[20px] w-[293px] h-[44px] bg-[#014DAF] text-[16px] text-[#FFFFFF] font-bold sm:w-[100%]'>
           Create Profile
         </button>
       </div>
