@@ -1,7 +1,10 @@
+"use client"
+import AddFee from '@/app/components/AddFee'
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 
 const CardUser = () => {
+  const [addFee, setAddFee] = useState(false)
   return (
     <div>
       <div className='flex items-center justify-between h-[48px] bg-[#FFFFFF] border-[#DEE6E2] border-[1px] px-5 top-0 sticky z-50'>
@@ -62,10 +65,17 @@ const CardUser = () => {
       <div className='flex rounded-[10px] flex-col gap-3 m-[20px] bg-[#FFFFFF] p-5 border-[#DEE6E2] border-[1px]'>
         <h1 className='text-[18px] text-[#101828] font-bold'>Fee</h1>
         <div >
-          <button  className='bg-[#014DAF] rounded-[4px] text-[12px] flex items-center justify-center gap-2 w-[101px] h-[36px] text-[#FFFFFF] font-medium'>
-            <Image src="/pics/search.png" alt='Card Icon' height={20} width={20} />
+          <button onClick={() => setAddFee(!addFee)}  className='bg-[#014DAF] rounded-[4px] text-[12px] flex items-center justify-center gap-2 w-[101px] h-[36px] text-[#FFFFFF] font-medium'>
+            <Image src="/pics/plus.png" alt='Card Icon' height={20} width={20} />
             Add fee
           </button>
+          {
+            addFee && (
+              <div className='fixed flex items-center justify-center w-[100%] h-[100vh] bg-[#101828] z-[90] top-0 left-0'>
+                <AddFee />
+              </div>
+            )
+          }
           <table border="1" width="100%" className='bg-[#EAECF0] my-6 sm:overflow-y-scroll'>
             <thead className='bg-[#EAECF0]'>
               <tr className='flex items-center bg-[#F9FAFB]'>
