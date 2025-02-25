@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const CardUser = () => {
@@ -15,7 +16,7 @@ const CardUser = () => {
         </div>
       </div>
       <div className='px-5 sm:flex sm:flex-col sm:gap-3'>
-        <h1 className='text-[18px] text-[#101828] font-bold'>Card Request</h1>
+        <h1 className='text-[18px] text-[#101828] font-bold'>Card Profile</h1>
         <span className='text-[#475467] text-[14px] font-normal'>View and attend to card requests here.</span>
       </div>
       <div className='mx-5'>
@@ -27,10 +28,12 @@ const CardUser = () => {
           <input type="text" className='text-[12px] text-[#808080] font-normal w-[100%]' placeholder='Search by card name'  />
         </div>
         <div>
-          <button className='bg-[#014DAF] rounded-[4px] h-[44px] px-5 text-[#FFFFFF] flex items-center gap-2 text-[14px]'>
+          <Link href="/card/create-profile">
+            <button className='bg-[#014DAF] rounded-[4px] h-[44px] px-5 text-[#FFFFFF] flex items-center gap-2 text-[14px]'>
             <Image src="/pics/plus.png" width={20} height={20} alt="" />
             Add Card
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
       <div className='mx-5'>

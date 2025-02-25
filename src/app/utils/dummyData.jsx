@@ -25,14 +25,14 @@ export const sideBarLinks = [
   },
   {
     id: 5,
-    name: "Card Profile",
-    path: "/profile",
+    name: "Card Request",
+    path: "/card",
     icon: "/pics/e.png"
   },
   {
     id: 6,
-    name: "Card Request",
-    path: "/card",
+    name: "Card Profile",
+    path: "/profile",
     icon: "/pics/e.png"
   },
   {
